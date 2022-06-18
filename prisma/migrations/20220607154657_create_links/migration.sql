@@ -3,7 +3,7 @@ CREATE TABLE "Link" (
     "id" TEXT NOT NULL,
     "origUrl" TEXT NOT NULL,
     "shortUrl" TEXT NOT NULL,
-    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
 -- CreateIndex
